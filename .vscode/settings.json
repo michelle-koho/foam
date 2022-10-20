@@ -1,32 +1,59 @@
-// Place your settings in this file to overwrite default and user settings.
 {
+  "editor.minimap.enabled": true,
+  "editor.wrappingIndent": "indent",
+  "editor.overviewRulerBorder": false,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback', 'Noto Color Emoji'",
+  "[markdown]": {
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on",
+        "other": "on"
+    }
+  },
+  "files.defaultLanguage": "markdown",
   "files.exclude": {
-    // set these to true to hide folders with the compiled JS files,
-    "packages/**/out": false,
-    "packages/**/dist": false
+    "**/node_modules": true
   },
-  "search.exclude": {
-    // set this to false to include compiled JS folders in search results
-    "packages/**/out": true,
-    "packages/**/dist": true
+  "files.watcherExclude": {
+    "**/node_modules": true
   },
-  // Turn off tsc task auto detection since we have the necessary tasks as npm scripts
-  "typescript.tsc.autoDetect": "off",
-  "foam.edit.linkReferenceDefinitions": "withExtensions",
+  "foam.edit.linkReferenceDefinitions": "off",
+  "foam.openDailyNote.directory": "journal",
+  "foam.openDailyNote.titleFormat": "fullDate",
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync",
+  "markdown.preview.breaks": true,
+  "pasteImage.path": "${projectRoot}/attachments",
+  "pasteImage.showFilePathConfirmInputBox": true,
+  "prettier.singleQuote": false,
+  "gitdoc.enabled": false,
+  "foam.graph.style": {
+    "node": {
+        "journal": "green",
+        "documentation": "lightblue",
+    }
+  },
   "foam.files.ignore": [
     "**/.vscode/**/*",
     "**/_layouts/**/*",
     "**/_site/**/*",
-    "**/node_modules/**/*",
-    "packages/**/*"
+    "**/node_modules/**/*"
   ],
-  "editor.tabSize": 2,
-  "editor.formatOnSave": true,
-  "editor.formatOnSaveMode": "file",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "jest.autoRun": "off",
-  "jest.rootPath": "packages/foam-vscode",
-  "jest.jestCommandLine": "yarn jest",
-  "gitdoc.enabled": false,
-  "search.mode": "reuseEditor"
+  "todo-tree.regex.subTagRegex": "\\[(.*?)\\]",
+  "todo-tree.filtering.excludeGlobs": [
+    "**/node_modules",
+    "**/.foam/**/*"
+  ],
+  "todo-tree.tree.buttons.groupBySubTag": true,
+  "markdownExtended.pdfFormat": "Letter",
+  "markdown.extension.print.theme": "dark",
+  "markdownExtended.disabledPlugins": "kbd",
+  "markdown-checkbox.checkmark": "x",
+  "markdown-checkbox.strikeThroughWhenChecked": false,
+  "markdown-checkbox.typeOfBulletPoint": "-",
+  "markdown-checkbox.italicWhenChecked": false,
+  "gitdoc.autoCommitDelay": 60000,
+  "gitdoc.autoPush": "afterDelay",
+  "gitdoc.autoPushDelay": 70000,
 }
