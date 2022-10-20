@@ -12,6 +12,16 @@
   "commitConvention": "none",
   "contributors": [
     {
+      "login": "michelle-koho",
+      "name": "Michelle Plarina",
+      "avatar_url": "",
+      "profile": "",
+      "contributions": [
+        "code",
+        "doc"
+      ]      
+    },
+    {
       "login": "jevakallio",
       "name": "Jani Eväkallio",
       "avatar_url": "https://avatars1.githubusercontent.com/u/1203949?v=4",

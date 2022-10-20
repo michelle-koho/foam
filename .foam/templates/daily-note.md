@@ -1,0 +1,6 @@
+---
+type: journal
+---
+# $FOAM_DATE_DAY_NAME, $FOAM_DATE_MONTH_NAME $FOAM_DATE_DATE, $FOAM_DATE_YEAR
+
+## Daily Todo
