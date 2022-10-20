@@ -27,7 +27,7 @@
   "pasteImage.path": "${projectRoot}/attachments",
   "pasteImage.showFilePathConfirmInputBox": true,
   "prettier.singleQuote": false,
-  "gitdoc.enabled": false,
+  "gitdoc.enabled": true,
   "foam.graph.style": {
     "node": {
         "journal": "green",
